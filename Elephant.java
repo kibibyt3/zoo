@@ -18,4 +18,10 @@ public class Elephant extends Animal{
 		return "*dies but not on the outside*";
 	}
 
+	public String toString(){
+		return "Elephant: [" +
+			" hasTusks: " + hasTusks +
+		" ]" +
+		super.toString();
+	}
 }

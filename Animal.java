@@ -22,4 +22,15 @@ public abstract class Animal{
 	public String sleep(){
 		return "ZZZZzzzz";
 	}
+
+	public String toString(){
+		return
+			"Animal: [" + 
+				" limbs: " + limbs +
+				" baseColor: " + baseColor +
+				" weight: " + weight +
+				" age: " + age +
+				" hasTail: " + hasTail +
+			" ]";
+	}
 }

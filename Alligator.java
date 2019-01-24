@@ -23,4 +23,12 @@ public class Alligator extends Animal{
 		return "be lazy in the water";
 	}
 
+	public String toString(){
+		return 
+			"Alligator: [" +
+				" coldBlooded: " + coldBlooded +
+				" numScales: " + numScales +
+			" ]" + 
+			super.toString();
+	}
 }

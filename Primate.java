@@ -31,4 +31,10 @@ public class Primate extends Animal{
 		return hasTail && tailCurls;
 	}
 
+	public String toString(){
+		return "Monkey: [" +
+				"tailCurls: " + tailCurls +
+			" ]" +
+			super.toString();
+	}
 }

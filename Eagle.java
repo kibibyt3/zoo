@@ -18,4 +18,11 @@ public class Eagle extends Animal{
 		return "*dances aggressively*";
 	}
 
+	public String toString(){
+		return "Eagle: [" +
+			" wingSpan: " + wingSpan +
+		" ]" +
+		super.toString();
+	}
+
 }
